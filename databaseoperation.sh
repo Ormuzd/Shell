@@ -1,6 +1,6 @@
 #!/usr/bin/expect -f
 
-spawn ssh root@219.217.191.100
+spawn ssh root@***.***.***.***
 expect "*assword:*"
 send "parabloa\r"
 expect "root*" 
